@@ -2878,7 +2878,7 @@ textarea.w-input, textarea.w-select {
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom: 1px solid #e4ebf3;
-  width: 100%;
+  width: 100vw;
   min-width: auto;
   max-width: 100vw;
   height: auto;
