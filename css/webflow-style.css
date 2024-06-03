@@ -3991,6 +3991,7 @@ img {
 
 a {
   text-decoration: none;
+  font-size: 2rem;
 }
 
 .hero-wrapper-two-new {
@@ -4028,6 +4029,7 @@ a {
   margin-bottom: 24px;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: 700;
+  padding-top: 1rem;
 }
 
 /* Styles for mobile and tablets */
