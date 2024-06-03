@@ -2903,6 +2903,8 @@ textarea.w-input, textarea.w-select {
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: 400;
   width: 100vw;
+  text-align: center;
+  width: 100vw;
 }
 
 .heading-3 {
