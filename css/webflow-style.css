@@ -3991,11 +3991,9 @@ img {
 
 a {
   text-decoration: none;
+  font-size: 10rem;
 }
 
-.instagramtext {
-	font-size: 10rem !IMPORTANT;
-}
 
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
