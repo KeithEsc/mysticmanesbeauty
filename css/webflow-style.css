@@ -4054,3 +4054,16 @@ a {
     width: 20%;
   }
 }
+
+/* Media query for mobile devices in landscape mode */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .marquee {
+      /* Padding specifically for mobile devices in landscape mode */
+      padding: 20px; /* Adjust padding as needed */
+  }
+
+  .slider-element {
+    /* Padding specifically for mobile devices in landscape mode */
+    padding: 20px; /* Adjust padding as needed */
+}
+}
