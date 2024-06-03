@@ -4061,6 +4061,7 @@ a {
       width: 80%; /* Adjust the width as needed */
       margin: 0 auto; /* Center the element horizontally */
       padding: 5rem; /* Adjust padding as needed */
+      bottom: 10rem;
   }
 
   .marquee {
@@ -4069,21 +4070,7 @@ a {
       width: 80%; /* Adjust the width as needed */
       margin: 0 auto; /* Center the element horizontally */
       padding: 5rem; /* Adjust padding as needed */
+      bottom: 10rem;
   }
 
-  .marquee-content {
-    /* Adjust the positioning or size of the marquee element */
-    /* For example: */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the element horizontally */
-    padding: 5rem; /* Adjust padding as needed */
-}
-
-.slider-wrapper {
-  /* Adjust the positioning or size of the marquee element */
-  /* For example: */
-  width: 80%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the element horizontally */
-  padding: 5rem; /* Adjust padding as needed */
-}
 }
