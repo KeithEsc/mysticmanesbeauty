@@ -3991,7 +3991,7 @@ img {
 
 a {
   text-decoration: none;
-  font-size: 5vw;
+  font-size: 4vw;
   
 }
 
@@ -4014,7 +4014,6 @@ a {
   width: auto;
   max-width: none;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-  font-size: 2vw;
   font-weight: 700;
   overflow: visible;
 }
