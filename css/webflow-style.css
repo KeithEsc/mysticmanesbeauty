@@ -4002,7 +4002,13 @@ a {
   align-items: center;
   height: auto;
   margin-top: -5rem;
+  width: 100vw;
 }
+
+.Instragram-text {
+  width: 100vw;
+}
+	
 
 
 
