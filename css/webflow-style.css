@@ -4058,11 +4058,11 @@ a {
 @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
   .marquee {
       /* Padding specifically for mobile devices in landscape mode */
-      padding: 20px; /* Adjust padding as needed */
+      padding: 10rem; /* Adjust padding as needed */
   }
 
   .slider-element {
     /* Padding specifically for mobile devices in landscape mode */
-    padding: 20px; /* Adjust padding as needed */
+    padding: 10rem; /* Adjust padding as needed */
 }
 }
