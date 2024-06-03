@@ -4009,7 +4009,11 @@ a {
 .Instragram-text {
   width: 100vw;
 }
-	
+
+.instagram-media {
+    max-width: 100%;
+    width: 100%;
+}
 
 
 
