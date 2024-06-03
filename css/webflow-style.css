@@ -3993,7 +3993,9 @@ a {
   text-decoration: none;
 }
 
-
+.instagramtext {
+	font-size: 4rem;
+}
 
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
