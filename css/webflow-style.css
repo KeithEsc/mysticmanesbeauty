@@ -4054,14 +4054,15 @@ a {
   }
 }
 
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
   .slider-element {
       /* Adjust the positioning or size of the slider element */
       /* For example: */
       width: 80%; /* Adjust the width as needed */
       margin: 0 auto; /* Center the element horizontally */
-      padding: 5rem; /* Adjust padding as needed */
-      bottom: 10rem;
+      padding-top: 5rem; /* Adjust padding as needed */
+      padding-bottom: 7rem;
+      
   }
 
   .marquee {
@@ -4069,8 +4070,8 @@ a {
       /* For example: */
       width: 80%; /* Adjust the width as needed */
       margin: 0 auto; /* Center the element horizontally */
-      padding: 5rem; /* Adjust padding as needed */
-      bottom: 10rem;
+      padding-top: 5rem; /* Adjust padding as needed */
+      
   }
 
 }
