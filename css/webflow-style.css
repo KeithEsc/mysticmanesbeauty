@@ -3150,6 +3150,7 @@ textarea.w-input, textarea.w-select {
 
 .map, .div-block-2 {
   width: 60vw;
+ padding-top: 20px;
 }
 
 .section-2 {
@@ -3157,7 +3158,7 @@ textarea.w-input, textarea.w-select {
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: 40px;
+  padding-top: 120px;
   padding-bottom: 40px;
   display: flex;
 }
@@ -4013,6 +4014,7 @@ a {
   width: auto;
   max-width: none;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  
   font-weight: 700;
   overflow: visible;
 }
@@ -4022,9 +4024,8 @@ a {
   margin-top: 0;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: 400;
-  padding-top: 1rem
-  justify-content: center;
-	align-content: center;
+  justify-content: ;
+  padding-top: 1rem;
 }
 
 .margin-bottom-24px-3-new {
@@ -4076,4 +4077,6 @@ a {
       
   }
 
+
 }
+
