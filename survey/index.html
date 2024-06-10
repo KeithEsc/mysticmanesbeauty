@@ -1,0 +1,224 @@
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Mystic Manes Survey Form</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help me improve
+        </p>
+      </header>
+
+      
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Years with Kasey as your hairdresser?<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="years-with"
+            id="number"
+            min="0"
+            max="10"
+            class="form-control"
+            placeholder="Enter number of years"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your hair color?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current hair color</option>
+            <option value="student">Blonde</option>
+            <option value="job">Brown</option>
+            <option value="learner">Black</option>
+            <option value="preferNo">Red</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend Kasey Esclavon to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is your favorite thing about Mystic Manes?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="quality">Quality of Service</option>
+            <option value="environment">Ambiance and Environment</option>
+            <option value="services">Range of Services</option>
+            <option value="product">Product Offerings</option>
+            <option value="value">Value for Money</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What would you like to see improved?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="appointments"
+              type="checkbox"
+              class="input-checkbox"
+            />Appointment Scheduling and Wait Times</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="quality-of-service"
+              type="checkbox"
+              class="input-checkbox"
+            />Quality of Service</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="ambiance-cleanliness"
+              type="checkbox"
+              class="input-checkbox"
+            />Ambiance and Cleanliness</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="customer-service"
+              type="checkbox"
+              class="input-checkbox"
+            />Customer Service</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="pricing-value"
+              type="checkbox"
+              class="input-checkbox"
+            />Pricing and Value</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="product-offerings"
+              type="checkbox"
+              class="input-checkbox"
+            />Product Offerings</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="convenience-accessibility"
+              type="checkbox"
+              class="input-checkbox"
+            />Convenience and Accessibility</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="additional-services-amenities"
+              type="checkbox"
+              class="input-checkbox"
+            />Additional Services and Amenities</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="communication"
+              type="checkbox"
+              class="input-checkbox"
+            />Communication and Transparency</label
+          >
+
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here...I read these!"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+
+    <script>
+        document.querySelectorAll('.stars input').forEach(star => {
+            star.addEventListener('change', function() {
+                if (this.value == 5) {
+                    window.location.href = 'https://g.page/r/CUO-PFLqYmAQEBM/review';
+                } else {
+                    document.getElementById('feedback').style.display = 'block';
+                }
+            });
+        });
+    </script>
+  </body>
+</html>
