@@ -30,6 +30,7 @@ audio:not([controls]) {
 
 a {
   background-color: rgba(0, 0, 0, 0);
+  color: rosybrown;
 }
 
 a:active, a:hover {
@@ -3158,8 +3159,8 @@ textarea.w-input, textarea.w-select {
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
   display: flex;
 }
 
@@ -3992,8 +3993,7 @@ img {
 
 a {
   text-decoration: none;
-  font-size: 1.5rem;
-font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 2rem;
 }
 
 .hero-wrapper-two-new {
@@ -4034,6 +4034,15 @@ font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: 700;
   padding-top: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 1rem;
 }
 
 /* Styles for mobile and tablets */
@@ -4077,7 +4086,19 @@ font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
       padding-top: 5rem; /* Adjust padding as needed */
       
   }
-
-
 }
 
+.section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 6rem;
+}
+
+.footer-text {
+  width: 100vw;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
